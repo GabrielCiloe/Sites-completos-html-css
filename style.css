@@ -81,6 +81,32 @@ section{
 
 .home-img img{
     max-width: 100%;
-    width: 350px;
+    width: 400px;
     height: auto;
+    padding-right: -60px;
+    padding-top: 100px ;
+}
+
+.home-text h1{
+    padding-top: 6rem;
+    font-size: var(--big-font);
+    color: var(--main-color);
+    line-height: 70px;
+}
+
+.home-text h2{
+    font-size: var(--h2-font);
+    margin: 1rem 0 2rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #FFF;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    transform: scale(1.1) translateY(10px);
+    transition: .3s;
 }
